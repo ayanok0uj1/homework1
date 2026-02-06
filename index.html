@@ -4,48 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It-incubator precourse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- ЗАДАНИЕ -->
     <!-- Необходимо создать html-элементы там, где это нужно, в соответствии с правилами семантической разметки -->
     <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
 
-    <header>
-        <span>IT-INCUBATOR</span>
+    <header class="header">
+        <span class="logotip">IT-INCUBATOR</span>
     </header>
 
-    <section data-cy="hw1-section-main-pre">
-        <h1>Чернышов Илья Алексеевич</h1>
-        <p>Работаю курьром на личном авто. Люблю читать и заниматься спортом  так же путешестовать.</p>
-        <img src="/images/Снимок экрана 2026-01-28 161544.png" alt="bird"> 
+    <section class="main-section" data-cy="hw1-section-main-pre">
+        <h1 class="h1">Чернышов Илья Алексеевич</h1>
+        <p class="p1">Работаю курьром на личном авто. Люблю читать и заниматься спортом  так же путешестовать.</p>
+        <img class="bird" src="/images/Снимок экрана 2026-01-28 161544.png" alt="bird"> 
     </section>
 
-    <section data-cy="hw1-section-about-pre">
-         <select>
+    <section class="section2" data-cy="hw1-section-about-pre">
+         <select class="select">
             <option>Vitebsk</option>
             <option selected>Minsk</option>
             <option>Grodno</option>
          </select>
-
         <div data-cy="hw1-unordered-list-box-pre">
-            <h2>Любимые книги</h2>
-            <ul>
+            <h2 class="h2">Любимые книги</h2>
+            <ul class="ul">
                 <li>Повелитель Тайн</li>
                 <li>Теневой раб</li>
                 <li>Всеведующий читатель</li>
             </ul> 
         </div>
         <div data-cy="hw1-ordered-list-box-pre">
-            <h2>Любимые фильмы</h2>
-            <ol>
+            <h2 class="h2">Любимые фильмы</h2>
+            <ol class="ol">
                 <li>Остров проклятых</li>
                 <li>Волк с оул стрит</li>
                 <li>матрица</li>
             </ol>
         </div>
         <div data-cy="hw1-skills-box-pre">
-            <h2>Мои скиллы</h2>
-            <label for="">
+            <h2 class="h2">Мои скиллы</h2>
+            <label class="label" for="">
                 <Input type="checkbox" name="HTML" checked>
                 HTML
             </label>
@@ -58,16 +61,16 @@
                 React
             </label>    
         </div>
-         <input placeholder="Новый скилл"></input>
-         <button>добавить</button>
-         <hr>
+         <input class="input" placeholder="Новый скилл"></input>
+         <button class="button2">добавить</button>
+         <hr class="line">
         
-        <table data-cy="hw-about-table-pre" border="">
+        <table class="table" data-cy="hw-about-table-pre" border="">
 
                         <tr>
-                            <th>п\п</th>
-                           <th>Наименование</th>
-                            <th>Количество</th>
+                            <th class="th1">п\п</th>
+                            <th class="th1">Наименование</th>
+                            <th class="th1">Количество</th>
                         </tr>
                         <tr>
                             <td>1</td>
@@ -90,8 +93,8 @@
                         </tr>
         </table>
     </section>
-    <footer data-cy="hw-footer-pre">
-         <a href="https://it-incubator.io/">it-incubator</a>
+    <footer class="bot" data-cy="hw-footer-pre">
+         <a class="site" href="https://it-incubator.io/">it-incubator</a>
     </footer>
 </body>
 </html>

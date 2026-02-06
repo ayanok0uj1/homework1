@@ -16,15 +16,11 @@ body{
     height: 70px;
     padding: 23px 1294px 0 0
     ;
-
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
 }
 
-.logotip{
-font-family: var(--font-family);
-font-weight: 700;
-font-size: 20px;
-color: #fff;
-}
 
 .main-section{
     background-color: #FAFAFF ;

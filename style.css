@@ -26,7 +26,7 @@ header span {
     background-color: #FAFAFF ;
     width: 1440px;
     height: 1024px;
-    padding: 60px 0 0;
+    padding: 60px 0 ;
     /* Стили для первой секции */
 }
 
@@ -47,8 +47,6 @@ margin-bottom: 20px;/* Стили для заголовка в первой се
 
 .main-image {
     width: 715px;
-    height: 508px;
-    margin-bottom: 356px ;
     /* Стили для изображения в первой секции */
 }
 
@@ -57,7 +55,7 @@ margin-bottom: 20px;/* Стили для заголовка в первой се
     width: 1440px;
     height: 883px;
     background-color: #FFFFFF;
-    padding: 32px 0 0;
+    padding: 100px 0 0;
     /* Стили для второй секции */
 }
 
@@ -87,14 +85,14 @@ select {
    font-weight: 400;
     font-size: 16px;
     list-style-image:url(/images/solar_map-arrow-up-bold.png);
-    padding-left: 20px
+    padding: 0 0 0 20px
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px/* Стили для нумерованного списка во второй секции */
+    padding:0 0 0 20px/* Стили для нумерованного списка во второй секции */
 }
 
 .label {
@@ -137,10 +135,12 @@ table {
     height: 196px;
     border: 1px solid #95a1bb;
     border-collapse: collapse; /* Стили для таблицы */
+    font-size: 14px;
+
 }
 
 th, td {
-   padding: 15px;
+   padding: 12 15px;
     font-weight: 400;
     font-size: 14px; /* Стили для ячеек таблицы */
 }

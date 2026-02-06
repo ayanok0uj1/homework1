@@ -26,7 +26,7 @@ header span {
     background-color: #FAFAFF ;
     width: 1440px;
     height: 1024px;
-    padding: 60px 0 ;
+    padding: 60px 0 0;
     /* Стили для первой секции */
 }
 
@@ -46,7 +46,7 @@ margin-bottom: 20px;/* Стили для заголовка в первой се
 }
 
 .main-image {
-    width: 715px;
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 

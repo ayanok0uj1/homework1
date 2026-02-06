@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
     font-family: "Inter", sans-serif;
-    color: #303030;
+    color: #303030; 
 }
+
 
 .header{
     background-color: #2965F1 ;

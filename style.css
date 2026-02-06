@@ -26,7 +26,7 @@ header span {
     background-color: #FAFAFF ;
     width: 1440px;
     height: 1024px;
-    padding: 60px 0 0;
+    padding: 60px 0px;
     /* Стили для первой секции */
 }
 
@@ -55,7 +55,7 @@ margin-bottom: 20px;/* Стили для заголовка в первой се
     width: 1440px;
     height: 883px;
     background-color: #FFFFFF;
-    padding: 100px 0 0;
+    padding: 100px 0px;
     /* Стили для второй секции */
 }
 
@@ -85,14 +85,14 @@ select {
    font-weight: 400;
     font-size: 16px;
     list-style-image:url(/images/solar_map-arrow-up-bold.png);
-    padding: 0 0 0 20px
+    padding: 0px 20px
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
     font-weight: 400;
     font-size: 16px;
-    padding:0 0 0 20px/* Стили для нумерованного списка во второй секции */
+    padding:0px 20px/* Стили для нумерованного списка во второй секции */
 }
 
 .label {
